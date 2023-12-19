@@ -26,12 +26,12 @@
   ],
   "main": "./dist/vform.umd.js",
   "unpkg": "./dist/vform.umd.js",
-  "module": "./dist/vform.es.js",
+  "module": "./dist/vform.mjs",
   "types": "./types/index.d.ts",
   "exports": {
     ".": {
-      "import": "./dist/vform.es.js",
-      "require": "./dist/vform.umd.js"
+      "import": "./dist/vform.mjs",
+      "require": "./dist/vform.mjs"
     },
     "./components/tailwind": "./src/components/tailwind/index.js",
     "./src/components/tailwind": "./src/components/tailwind/index.js",

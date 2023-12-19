@@ -16,6 +16,8 @@ export default defineConfig({
     rollupOptions: {
       external: ['axios'],
       output: {
+        entryFileNames: `vform.es.mjs`,
+        chunkFileNames: `vform.umd.mjs`,
         globals: {
           axios: 'axios'
         },
